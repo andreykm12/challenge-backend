@@ -35,7 +35,7 @@ Run the database test seeds
 
 ## Unit test
 
-Set the database connection in .env.testing before migrating
+Set the database connection in .env.testing
 
 Run tests
 
