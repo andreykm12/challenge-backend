@@ -40,3 +40,6 @@ Set the database connection in .env.testing
 Run tests
 
     phpunit
+
+You can make to test requests in the postman.
+You must make to import requests from the file challenge.postman_collection.json 
