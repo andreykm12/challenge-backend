@@ -1,0 +1,357 @@
+{
+	"info": {
+		"_postman_id": "6e335ea5-54c0-48fc-9655-b1ff910aa4f6",
+		"name": "challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Property",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "guid",
+									"value": "a",
+									"type": "text"
+								},
+								{
+									"key": "state",
+									"value": "b",
+									"type": "text"
+								},
+								{
+									"key": "suburb",
+									"value": "c",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "d",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{site}}/api/property",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{site}}/api/property",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get By ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{site}}/api/property",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "guid",
+									"value": "a",
+									"type": "text"
+								},
+								{
+									"key": "state",
+									"value": "b",
+									"type": "text"
+								},
+								{
+									"key": "suburb",
+									"value": "c",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "d",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{site}}/api/property/8",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Copy",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "guid",
+									"value": "a",
+									"type": "text"
+								},
+								{
+									"key": "state",
+									"value": "b",
+									"type": "text"
+								},
+								{
+									"key": "suburb",
+									"value": "c",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "d",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{site}}/api/property/8",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "guid",
+									"value": "a",
+									"type": "text"
+								},
+								{
+									"key": "state",
+									"value": "b",
+									"type": "text"
+								},
+								{
+									"key": "suburb",
+									"value": "c",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "d",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{site}}/api/property/8",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property",
+								"8"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Property Analytic",
+			"item": [
+				{
+					"name": "Get All",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{site}}/api/property-analytic",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property-analytic"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get By Id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{site}}/api/property-analytic/1",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property-analytic",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Summary",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{site}}/api/property-analytic/summary/country/Vietnam",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property-analytic",
+								"summary",
+								"country",
+								"Vietnam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "property_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "analytic_type_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "value",
+									"value": "1.1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{site}}/api/property-analytic",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"api",
+								"property-analytic"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
